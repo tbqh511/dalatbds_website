@@ -1,0 +1,170 @@
+[13-May-2023 04:35:50 UTC] PHP Fatal error:  Could not check compatibility between App\Admin\Controllers\RePostTypeController::index(App\Admin\Controllers\Content $content) and Encore\Admin\Controllers\AdminController::index(Encore\Admin\Layout\Content $content), because class App\Admin\Controllers\Content is not available in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Admin/Controllers/RePostTypeController.php on line 45
+[13-May-2023 04:35:51 UTC] PHP Fatal error:  Could not check compatibility between App\Admin\Controllers\RePostTypeController::index(App\Admin\Controllers\Content $content) and Encore\Admin\Controllers\AdminController::index(Encore\Admin\Layout\Content $content), because class App\Admin\Controllers\Content is not available in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Admin/Controllers/RePostTypeController.php on line 45
+[13-May-2023 04:37:03 UTC] PHP Fatal error:  Could not check compatibility between App\Admin\Controllers\RePostTypeController::index(App\Admin\Controllers\Content $content) and Encore\Admin\Controllers\AdminController::index(Encore\Admin\Layout\Content $content), because class App\Admin\Controllers\Content is not available in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Admin/Controllers/RePostTypeController.php on line 45
+[13-May-2023 04:37:20 UTC] PHP Fatal error:  Could not check compatibility between App\Admin\Controllers\RePostTypeController::index(App\Admin\Controllers\Content $content) and Encore\Admin\Controllers\AdminController::index(Encore\Admin\Layout\Content $content), because class App\Admin\Controllers\Content is not available in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Admin/Controllers/RePostTypeController.php on line 45
+[13-May-2023 04:37:20 UTC] PHP Fatal error:  Could not check compatibility between App\Admin\Controllers\RePostTypeController::index(App\Admin\Controllers\Content $content) and Encore\Admin\Controllers\AdminController::index(Encore\Admin\Layout\Content $content), because class App\Admin\Controllers\Content is not available in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Admin/Controllers/RePostTypeController.php on line 45
+[13-May-2023 04:37:52 UTC] PHP Fatal error:  Could not check compatibility between App\Admin\Controllers\RePostTypeController::index(App\Admin\Controllers\Content $content) and Encore\Admin\Controllers\AdminController::index(Encore\Admin\Layout\Content $content), because class App\Admin\Controllers\Content is not available in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Admin/Controllers/RePostTypeController.php on line 45
+[13-May-2023 09:23:34 UTC] PHP Fatal error:  Declaration of Encore\Admin\Helpers\Scaffold\MigrationCreator::populateStub($name, $stub, $table) must be compatible with Illuminate\Database\Migrations\MigrationCreator::populateStub($stub, $table) in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel-admin-ext/helpers/src/Scaffold/MigrationCreator.php on line 49
+[22-Jun-2023 15:56:08 UTC] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): Read of 5961 bytes failed with errno=12 Cannot allocate memory in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): include('/home/qymxlvghh...')
+#3 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(26): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): include('/home/qymxlvghh...')
+#6 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#7 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php(41): Composer\Autoload\ClassLoader->loadClass()
+#8 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(764): Illuminate\Database\DatabaseServiceProvider->register()
+#9 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register()
+#10 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(741): Illuminate\Foundation\ProviderRepository->load()
+#11 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#12 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#13 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\Foundation\Application->bootstrapWith()
+#14 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\Foundation\Http\Kernel->bootstrap()
+#15 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#16 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#17 {main} in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 26
+[23-Jun-2023 00:15:36 UTC] PHP Notice:  include(): Read of 17334 bytes failed with errno=12 Cannot allocate memory in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php on line 571
+[23-Jun-2023 00:15:36 UTC] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): Read of 2441 bytes failed with errno=12 Cannot allocate memory in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): include('/home/qymxlvghh...')
+#3 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): include('/home/qymxlvghh...')
+#6 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#7 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1473): Composer\Autoload\ClassLoader->loadClass()
+#8 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/encore/laravel-admin/src/Admin.php(317): Illuminate\Routing\Router->__call()
+#9 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(501): Encore\Admin\Admin->Encore\Admin\{closure}()
+#10 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(457): Illuminate\Routing\Router->loadRoutes()
+#11 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/encore/laravel-admin/src/Admin.php(340): Illuminate\Routing\Router->group()
+#12 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(353): Encore\Admin\Admin->routes()
+#13 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Admin/routes.php(5): Illuminate\Support\Facades\Facade::__callStatic()
+#14 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(152): require('/home/qymxlvghh...')
+#15 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/encore/laravel-admin/src/AdminServiceProvider.php(80): Illuminate\Support\ServiceProvider->loadRoutesFrom()
+#16 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Encore\Admin\AdminServiceProvider->boot()
+#17 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#18 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\Container\Util::unwrapIfClosure()
+#19 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\Container\BoundMethod::callBoundMethod()
+#20 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\Container\BoundMethod::call()
+#21 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1006): Illuminate\Container\Container->call()
+#22 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(987): Illuminate\Foundation\Application->bootProvider()
+#23 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}()
+#24 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(988): array_walk()
+#25 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#26 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap()
+#27 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\Foundation\Application->bootstrapWith()
+#28 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\Foundation\Http\Kernel->bootstrap()
+#29 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#30 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#31 {main} in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php on line 31
+[23-Jun-2023 00:33:31 UTC] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): Read of 3083 bytes failed with errno=12 Cannot allocate memory in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): include('/home/qymxlvghh...')
+#3 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(15): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): include('/home/qymxlvghh...')
+#6 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#7 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#8 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/encore/laravel-admin/src/AdminServiceProvider.php(136): ReflectionClass->__construct()
+#9 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/encore/laravel-admin/src/AdminServiceProvider.php(85): Encore\Admin\AdminServiceProvider->compatibleBlade()
+#10 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Encore\Admin\AdminServiceProvider->boot()
+#11 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#12 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\Container\Util::unwrapIfClosure()
+#13 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\Container\BoundMethod::callBoundMethod()
+#14 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\Container\BoundMethod::call()
+#15 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1006): Illuminate\Container\Container->call()
+#16 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(987): Illuminate\Foundation\Application->bootProvider()
+#17 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}()
+#18 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(988): array_walk()
+#19 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#20 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap()
+#21 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\Foundation\Application->bootstrapWith()
+#22 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\Foundation\Http\Kernel->bootstrap()
+#23 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#24 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#25 {main} in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 15
+[23-Jun-2023 10:22:17 UTC] PHP Notice:  include(): Read of 1752 bytes failed with errno=12 Cannot allocate memory in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php on line 571
+[23-Jun-2023 10:22:17 UTC] PHP Warning:  include(): Failed opening '/home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/../vlucas/phpdotenv/src/Loader/Resolver.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php on line 571
+[23-Jun-2023 10:22:17 UTC] PHP Notice:  include(): Read of 46491 bytes failed with errno=12 Cannot allocate memory in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php on line 571
+[23-Jun-2023 10:22:17 UTC] PHP Warning:  include(): Failed opening '/home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/../laravel/framework/src/Illuminate/Collections/Collection.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php on line 571
+[23-Jun-2023 10:22:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(914): ReflectionClass->__construct()
+#1 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#2 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(933): Illuminate\Container\Container->resolve()
+#3 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(918): Illuminate\Container\Container->make()
+#5 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1456): Illuminate\Foundation\Application->make()
+#6 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(546): Illuminate\Container\Container->offsetGet()
+#7 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(597): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\Log\LogManager->parseDriver()
+#9 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(667): Illuminate\Log\LogManager->driver()
+#10 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->error()
+#11 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(491): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:916
+Stack trace:
+#0 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#1 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(933): Illuminate\Container\Container->resolve()
+#2 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#3 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(918): Illuminate\Container\Container->make()
+#4 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(1456): Illuminate\Foundation\Application->make()
+#5 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(546): Illuminate\Container\Container->offsetGet()
+#6 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(597): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\Log\LogManager->parseDriver()
+#8 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(667): Illuminate\Log\LogManager->driver()
+#9 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->error()
+#10 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(491): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 916
+[23-Jun-2023 10:22:19 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:350
+Stack trace:
+#0 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(659): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(640): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(571): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(477): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(394): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(503): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 350
+[23-Jun-2023 14:51:04 UTC] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): Read of 1053 bytes failed with errno=12 Cannot allocate memory in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): include('/home/qymxlvghh...')
+#3 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(15): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(571): include('/home/qymxlvghh...')
+#6 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#7 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#8 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/encore/laravel-admin/src/AdminServiceProvider.php(136): ReflectionClass->__construct()
+#9 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/encore/laravel-admin/src/AdminServiceProvider.php(85): Encore\Admin\AdminServiceProvider->compatibleBlade()
+#10 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Encore\Admin\AdminServiceProvider->boot()
+#11 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#12 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\Container\Util::unwrapIfClosure()
+#13 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\Container\BoundMethod::callBoundMethod()
+#14 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\Container\BoundMethod::call()
+#15 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1006): Illuminate\Container\Container->call()
+#16 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(987): Illuminate\Foundation\Application->bootProvider()
+#17 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}()
+#18 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(988): array_walk()
+#19 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#20 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap()
+#21 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\Foundation\Application->bootstrapWith()
+#22 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\Foundation\Http\Kernel->bootstrap()
+#23 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#24 /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#25 {main} in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 15

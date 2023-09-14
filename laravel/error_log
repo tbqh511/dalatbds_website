@@ -1,0 +1,24 @@
+[08-Jun-2023 09:09:16 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[09-Jun-2023 05:17:58 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[12-Jun-2023 02:40:04 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[13-Jun-2023 10:32:06 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[19-Jun-2023 10:47:12 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[20-Jun-2023 11:43:24 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[22-Jun-2023 00:41:17 UTC] PHP Parse error:  syntax error, unexpected token "{", expecting "(" in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Models/Product.php on line 15
+[22-Jun-2023 00:42:17 UTC] PHP Parse error:  syntax error, unexpected token "{", expecting "(" in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Models/Product.php on line 16
+[22-Jun-2023 08:45:16 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ";" in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Models/Product.php on line 25
+[22-Jun-2023 08:46:16 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ";" in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Models/Product.php on line 25
+[22-Jun-2023 08:47:16 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ";" in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Models/Product.php on line 25
+[04-Jul-2023 09:17:42 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[08-Jul-2023 15:49:40 UTC] PHP Fatal error:  Cannot use App\Models\ProductAddress as ProductAddress because the name is already in use in /home/qymxlvghhosting/public_html/dalatbds.xyz/laravel/app/Models/Product.php on line 14
+[13-Jul-2023 05:58:56 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[13-Jul-2023 11:01:17 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[14-Jul-2023 11:50:09 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[23-Jul-2023 05:45:24 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[25-Jul-2023 14:30:42 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[26-Jul-2023 13:03:52 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[27-Jul-2023 07:42:58 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[27-Jul-2023 12:21:23 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[27-Jul-2023 12:40:31 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[30-Jul-2023 08:27:34 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
+[30-Jul-2023 13:27:04 UTC] PHP Parse error:  syntax error, unexpected string content "echo", expecting end of file in Command line code on line 1
